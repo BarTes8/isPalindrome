@@ -6,8 +6,8 @@ bool isPalindrome(const std::string & text){
     if (text[i] != text[text.length() - 1 - i]){
       return false;
     }
-  return true;
   }
+  return true;
 }
 
 int main(){
